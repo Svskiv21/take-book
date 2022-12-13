@@ -1,4 +1,4 @@
-package pwo.model.book;
+package pow.model.customer;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -12,9 +12,9 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 @Entity
-public class Book {
-    @Id
-    private int id;
-    private String title;
-    private String author;
+public class Customer {
+        @Id
+        private int id;
+        private String name;
+        private String surname;
 }
