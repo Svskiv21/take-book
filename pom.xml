@@ -8,7 +8,6 @@
 		<module>domain</module>
 		<module>repository</module>
 		<module>web</module>
-		<module>email</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
